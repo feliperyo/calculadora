@@ -1,0 +1,67 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    width: 100vw;
+    background: rgb(58, 53, 85);
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+main {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 15px;
+    background: rgb(124, 114, 183);
+    font-size: 20px;
+
+}
+#num1, #num2{
+width: 150px;
+}
+#num3{
+    text-align: center;
+}
+
+
+button {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    background: rgb(124, 114, 183);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: rgb(191, 180, 255);
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+p {
+    font-size: 30px;
+}
