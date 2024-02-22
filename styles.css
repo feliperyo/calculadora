@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: aliceblue;
 }
 
 body {
@@ -14,15 +13,20 @@ body {
 h1 {
     font-size: 50px;
     margin-bottom: 15px;
+    color: rgb(65, 61, 61)
 }
 
 main {
-    margin-top: 9%;
+    margin: 13% auto 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background: aliceblue;
+    width: 350px;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 input {
@@ -34,24 +38,27 @@ input {
     font-size: 20px;
 
 }
-#num1, #num2{
-width: 150px;
+
+#num1,
+#num2 {
+    width: 150px;
 }
-#num3{
+
+#num3 {
     text-align: center;
+    color: black;
 }
 
 
 button {
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-    margin: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 26px;
     background: rgb(124, 114, 183);
     cursor: pointer;
-
+    color: antiquewhite;
 }
 
 button:hover {
