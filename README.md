@@ -8,7 +8,7 @@
 </div>
 
 <br>
-<p align="center">Fique a vontade para testar.</p>
+<p align="center">Clique abaixo para calcular.</p>
 
 <div align="center">
 <a href="https://feliperyo.github.io/calculadora/" target="_blank"><img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg"></a>
