@@ -7,7 +7,12 @@
 
 body {
     width: 100vw;
-    background: rgb(58, 53, 85);
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 h1 {
@@ -17,7 +22,7 @@ h1 {
 }
 
 main {
-    margin: 13% auto 0px auto;
+    margin: 2% auto 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
